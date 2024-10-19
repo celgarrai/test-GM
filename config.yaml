@@ -1,0 +1,13 @@
+mqtt:
+  broker_address: "v441e411.ala.eu-central-1.emqxsl.com"  
+  broker_port: 8883                                    
+  username: "xxxxx"                               
+  password: "xxxxx"                     
+  topic: "config/a/wis2"                               
+
+prometheus:
+  url: "http://172.16.8.204:9090/api/v1/query"       
+  scrape_timeout: 15                                   
+
+test:
+  prometheus_wait_time: 15                            
